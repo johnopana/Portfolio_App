@@ -99,9 +99,14 @@ h1{
      
   }
   #contact{
-      background-color: yellowgreen;
       margin-top: 20px;
-      display: flex;
+	  display: flex;
+	  text-align: center;
+	  justify-content: center;
+  }
+  /* .last{
+	  text-align: center;
+	  justify-content: center; */
   }
   #contact span{
       margin-bottom:20px;
@@ -120,9 +125,8 @@ h1{
   }
 
   .navbar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
+    width: 40%;
+	padding-right: 100px;
     
   }
   
@@ -208,6 +212,12 @@ h1{
     background: #55ACEE;
     color: white;
   }
+  .da{
+	 margin-left:40%;
+	 /* margin-right:50% ; */
+	 padding-top: 2em;
+	 padding-bottom: 2em;
+  }
   
   .linkedin {
     background: #007bb5;
@@ -220,6 +230,19 @@ h1{
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
+  }
+  .style{
+	  text-align: center;
+	  font-size: 1.3em;
+	  background-color: whitesmoke;
+  }
+  .now{
+	  background-color: whitesmoke;
+	  text-align: center;
+	  font-size: 1.3em;
+	  margin-left:80px ;
+	  margin-right:80px ;
+
   }
   
   /* Style the social media icons with color, if you want */
@@ -244,4 +267,6 @@ h1{
   .copy{
       text-align:center;
   }
-  
+  .joe{
+	  border-radius: 2em;
+  }
